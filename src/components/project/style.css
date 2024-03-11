@@ -1,0 +1,21 @@
+.project {
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project__img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #007bff;
+}
+
+.project__title {
+    text-align: center;
+    color: #333;
+    padding: 15px;
+}
